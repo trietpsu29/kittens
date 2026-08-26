@@ -1,0 +1,7 @@
+<li>
+  <p>Name: <%= kitten.name %></p>
+  <p>Age: <%= kitten.age %></p>
+  <p>Cuteness: <%= kitten.cuteness %></p>
+  <p>Softness: <%= kitten.softness %></p>
+  <%= link_to "Delete", kitten_path(kitten), data: { turbo_method: :delete } %>
+</li>
